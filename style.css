@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Font;
+  src: url(/Users/jan-philippjakob/Downloads/SpaceGrotesk-2.0.0/woff2/SpaceGrotesk[wght].woff2);
+  font-weight: Bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* CSS of the main page */
+
+#defined-greeting {
+  font-size: 7vw;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 5vw;
+  margin-right: 5px;
+  text-align: left;
+}
+
+#fade {
+  background: linear-gradient(to top, white, white, #c5cae9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#box {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  margin-top: 500px;
+  margin-left: 5vw;
+  margin-right: 1vw;
+  border-radius: 5%;
+  float: left;
+  background-color: #c5cae9;
+  box-shadow: 1px 1px 10px grey;
+}
+
+#box-inactive {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 1vw;
+  border-radius: 5%;
+  float: left;
+  background-color: #eceff1;
+  box-shadow: 1px 1px 10px grey;
+}
+
+#box1 {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 1vw;
+  border-radius: 5%;
+  float: left;
+  background-color: #c5cae9;
+  box-shadow: 1px 1px 10px grey;
+}
+
+#box1-inactive {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 1vw;
+  border-radius: 5%;
+  float: left;
+  background-color: #eceff1;
+  box-shadow: 1px 1px 10px grey;
+}
+
+#UserInformation {
+  font-size: 4vw;
+  font-weight: bold;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  text-align: center;
+}
+
+#BRD {
+  margin-top: 50vw;
+}
+
+
+#footer {
+  font-size: 5vw;
+  position: absolute;
+  bottom: 5px;
+  align: center;
+  visibility: hidden;
+}
+
+/* CSS of algorithms */
+
+#BasicTreatment {
+  font-size: 3vw;
+  text-align: center;
+  background: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 40vw;
+  width: auto;
+  height: auto;
+}
+
+#BasicTreatment1 {
+  font-size: 3vw;
+  text-align: center;
+  background: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  width: auto;
+  height: auto;
+}
+
+#FurtherTreatment {
+  font-size: 3vw;
+  text-align: center;
+  background: yellow;
+  border-style: dashed;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  width: auto;
+  height: auto;
+}
+
+#ExtraTreatment {
+  font-size: 5vw;
+  text-align: center;
+  background: orange;
+  border-style: dashed;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  width: auto;
+  height: auto;
+}
+
+#Action {
+  font-size: 5vw;
+  text-align: center;
+  align-self: center;
+  float: left;
+  background: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  width: 42.15vw;
+  height: auto;
+}
