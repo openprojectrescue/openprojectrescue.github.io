@@ -8,6 +8,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* CSS Animation part */
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}
+
 /* CSS of the main page */
 
 #defined-greeting {
@@ -86,6 +93,7 @@ body {
   margin-left: 12vw;
   margin-right: 12vw;
   text-align: center;
+  animation: "floater";
 }
 
 #BRD {
